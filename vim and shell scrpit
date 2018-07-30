@@ -1,0 +1,30 @@
+insatll vim 
+1.)cmd:vim file_name
+2.)press 'i' to insert data 
+3.)press 'Esc' to get out of inset mode
+4.)To save but not exit:-
+  :w and enter
+   To save and exit
+  :wq
+   To exit without saving
+  :q!
+5.)In view mode (not insert mode) 0 for first letter of the line,
+	w- for next letter of previous line
+	b- frst letter of previous line
+	$- for end of the line
+	G- move to the last line
+	A- this put u into insert mode/pan mode at the end of the line.
+6.)'Esc' to escape the editor
+7.)':set number' to see number at the start of line
+8.) ':syntax on' 
+9.) ':set tabstop=2' to give two space on tab
+10.) ':set autoindent'
+11.) we can save this command in home directory as '.vimrc'
+and we can see them in terminal by ':echo $MYVIMRC'
+
+Only in View mode
+V- select the line
+y- for copy
+P- to paste
+
+'Esc'->gg->dG  To delete all the content in the file
